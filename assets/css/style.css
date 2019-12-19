@@ -26,15 +26,20 @@ a {
 #name {
     background-color: rgba(0, 255, 191, 0.5);
     font-size: 32px;
-    padding: 22px 20px;
+    padding: 20px 20px;
     position: absolute;
     left: 13%;
     margin: 0;
     vertical-align: middle;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 #about-link {
     right: 450px;
+}
+
+a:hover{
+    background-color: rgba(0, 255, 191, 0.5);
 }
 
 #contact-link {
