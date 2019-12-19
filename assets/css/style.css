@@ -14,17 +14,17 @@ body {
 }
 
 a {
-    background-color: rgba(5, 137, 214, 0.5);
-    padding: 30px 20px;
+    padding: 26px 20px;
     color: black;
-    font-size: 18px;
+    font-size: 24px;
     top: 0px;
     display: inline;
-    float:right;
+    float: right;
+    text-decoration: none;
 }
 
 #name {
-    background-color: rgba(5, 137, 214, 0.5);
+    background-color: rgba(0, 255, 191, 0.5);
     font-size: 32px;
     padding: 22px 20px;
     position: absolute;
@@ -47,24 +47,46 @@ a {
     border-right: 1px solid rgb(255, 255, 255, .5);
 }
 
-.about-main {
+.main {
     background-color: rgb(255, 255, 255, .5);
     width: 75%;
     height: 50%;
     padding: 20px 20px;
     margin: 100px auto 0 auto;
     position: relative;
-    z-index: -1;
 }
 
 #prof-pic {
     opacity: .75;
 }
 
+#main-header {
+    border-bottom: 1px solid rgb(255, 255, 255, .5);
+}
+
 #prof-description {
-    font-size: 24px;
     position: absolute;
-    top: 50px;
+    bottom: 20px;
     right: 20px;
     width: 425px;
+}
+
+p {
+    font-size: 24px;
+}
+
+input {
+    width: 100%;
+}
+
+#mess-input {
+    height: 100px;
+}
+
+button {
+    background-color: rgba(0, 255, 191, 0.5);
+    border:none;
+    width: 100px;
+    height:50px;
+    margin: 10px;
 }
