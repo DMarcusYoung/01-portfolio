@@ -28,7 +28,7 @@ a {
     font-size: 32px;
     padding: 20px 20px;
     position: absolute;
-    left: 13%;
+    left: 11.5%;
     margin: 0;
     vertical-align: middle;
     font-family: 'Berkshire Swash', cursive;
@@ -95,3 +95,25 @@ button {
     height:50px;
     margin: 10px;
 }
+
+.portfolio-pic {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    position: relative;
+    display: inline;
+}
+
+.port-imag-label {
+    position: absolute;
+    width: 200px;
+    height: 200%;
+    bottom: 20%;
+    left: 20px;
+    background-color: rgba(0, 255, 191, 0.75);
+    text-align: center;
+}
+
