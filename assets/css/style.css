@@ -82,6 +82,7 @@ p {
 
 input {
     width: 100%;
+    opacity: .75;
 }
 
 #mess-input {
@@ -100,6 +101,7 @@ button {
     margin: 20px;
     width: 200px;
     height: 200px;
+    opacity: .75;
 }
 
 .container {
